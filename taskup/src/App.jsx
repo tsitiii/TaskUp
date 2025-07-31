@@ -1,16 +1,11 @@
-import React, { useState } from 'react'
-import './index.css'
+import React from 'react';
+import TaskDashboard from './components/TaskDashboard';
+import './index.css';
 
 function App() {
- 
-
   return (
-    <div className='text-red-300'>
-      <h1 className="text-3xl font-bold underline text-center mt-10 text-blue-500">
-        Welcome to TaskUp!
-      </h1>
-    </div>
-  )
+    <TaskDashboard />
+  );
 }
 
-export default App
+export default App;
